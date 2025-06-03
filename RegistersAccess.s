@@ -16,7 +16,7 @@ main:
     la t1, array
     
     # t2 = 1000. t2 is a mark number to manage the loop stop condition.
-    li t2, 10
+    li t2, 1000
 
 storeLoop:
     # Stop condition. Stops when t0 equals t2 (1000 iterations).
